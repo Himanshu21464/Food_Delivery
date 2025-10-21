@@ -7,6 +7,7 @@ import { assets } from "../../assets/frontend_assets/assets.js";
 const FoodItem = ({id, name, price, description, image}) => {
 
   const [itemCount, setItemCount] = useState(0);
+  const [cartItems,setCartItems, addToCart, removeFromCart]
 
   return (
     <div className="food-item">
